@@ -17,7 +17,6 @@ namespace Aula1
 
         private void btnEntrar_Clicked(object sender, EventArgs e)
         {
-            if (txtSenha.Text == "1")
             DisplayAlert("Atenção", "Mensagem: " + txtSenha.Text, "Ok");
         }
     }
