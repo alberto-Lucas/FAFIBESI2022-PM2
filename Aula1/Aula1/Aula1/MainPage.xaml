@@ -1,11 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Aula1.MainPage">
+             x:Class="Aula1.MainPage"
+             BackgroundColor ="#1e1e1e"
+             Visual="Default">
 
     <ContentPage.Content>
         <StackLayout Padding="20">
-        <Label Text="Usuário: " 
+
+            <Frame Padding="20" CornerRadius="0" BackgroundColor ="#1e1e1e"  HorizontalOptions="Start">
+                <StackLayout>
+                    <Button Text="Voltar"
+                            TextColor="White"
+                            x:Name="btnVoltar"
+                            Clicked="btnVoltar_Clicked"/>
+                </StackLayout>
+            </Frame>
+
+            
+
+            <Label Text="Usuário: " 
                TextColor="Black"
                FontSize="25"/>
         <Entry Placeholder="Usuário" />

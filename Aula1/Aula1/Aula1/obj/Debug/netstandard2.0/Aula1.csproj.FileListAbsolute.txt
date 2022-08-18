@@ -13,3 +13,4 @@ C:\Users\lucas\source\repos\FAFIBESI2022-PM2\Aula1\Aula1\Aula1\obj\Debug\netstan
 C:\Users\lucas\source\repos\FAFIBESI2022-PM2\Aula1\Aula1\Aula1\obj\Debug\netstandard2.0\Aula1.dll
 C:\Users\lucas\source\repos\FAFIBESI2022-PM2\Aula1\Aula1\Aula1\obj\Debug\netstandard2.0\ref\Aula1.dll
 C:\Users\lucas\source\repos\FAFIBESI2022-PM2\Aula1\Aula1\Aula1\obj\Debug\netstandard2.0\Aula1.pdb
+C:\Users\lucas\source\repos\FAFIBESI2022-PM2\Aula1\Aula1\Aula1\obj\Debug\netstandard2.0\Login.xaml.g.cs

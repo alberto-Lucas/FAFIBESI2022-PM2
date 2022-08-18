@@ -10,6 +10,7 @@ namespace Aula1
         {
             InitializeComponent();
 
+            //MainPage = new Login();
             MainPage = new MainPage();
         }
 

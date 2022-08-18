@@ -19,5 +19,10 @@ namespace Aula1
         {
             DisplayAlert("Atenção", "Mensagem: " + txtSenha.Text, "Ok");
         }
+
+        private void btnVoltar_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PopModalAsync();
+        }
     }
 }
