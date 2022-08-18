@@ -13,6 +13,9 @@ namespace Aula1
         public MainPage()
         {
             InitializeComponent();
+
+            var usuarioLogado = UsuarioLogado.Instancia;
+            txtSenha.Text = usuarioLogado.Nome;
         }
 
         private void btnEntrar_Clicked(object sender, EventArgs e)

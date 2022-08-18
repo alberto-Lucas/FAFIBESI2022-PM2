@@ -20,7 +20,13 @@ namespace Aula1
         private void btnEntrar_Clicked(object sender, EventArgs e)
         {
             if (ValidarLogin(txtUsuario.Text, txtSenha.Text))
+            {
+                var usuarioLogado = UsuarioLogado.Instancia;
+                usuarioLogado.Nome = txtUsuario.Text;
+                
                 Navigation.PushModalAsync(new MainPage());
+
+            }
             else
             {
                 txtUsuario.Text = string.Empty;
